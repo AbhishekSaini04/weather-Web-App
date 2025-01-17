@@ -1,6 +1,6 @@
 export default async function getWeatherData(Place = String, KEY = String) {
   const response = await fetch(
-    `http://api.weatherapi.com/v1/current.json?key=${"e09649b0adfd443790f85820251401"}&q=${Place}&aqi=no`,
+    `https://api.weatherapi.com/v1/current.json?key=${"e09649b0adfd443790f85820251401"}&q=${Place}&aqi=no`,
     {
       method: "GET",
     }
