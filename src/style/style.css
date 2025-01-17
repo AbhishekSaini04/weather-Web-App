@@ -1,0 +1,72 @@
+:root {
+    --myBlack: #050505;
+}
+
+body {
+    color: var(--myBlack);
+    height: calc(100svh - 20px);
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#root {
+
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-field {
+    border-radius: 20px;
+    border: 0px;
+
+    width: 80%;
+    font-size: 20px;
+    height: 35px;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+.search-btn,
+.refresh-btn {
+    margin: 15px 0px 15px 0px;
+    background: #fff;
+    border: 0px;
+    border-radius: 20px;
+    height: 35px;
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 27px 27px, rgba(0, 0, 0, 0.12) 0px -12px 10px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 6px 6px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.search-btn:active,
+.refresh-btn:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+.weather-img {
+    box-shadow: 2.1px 4.2px 4.2px hsl(0deg 0% 0% / 0.44);
+}
